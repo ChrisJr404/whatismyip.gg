@@ -13,7 +13,7 @@ async function fetchIPDetails() {
     document.getElementById("country").textContent = data.country || "Not available";
   } catch (error) {
     console.error("Error fetching IP details:", error);
-    document.getElementById("ip-info").innerHTML = "<p>Unable to fetch IP details. Please try again later.</p>";
+    document.getElementById("ip-info").innerHTML = "<p>Unable to fetch IP details. Please try again later!</p>";
   }
 }
 
